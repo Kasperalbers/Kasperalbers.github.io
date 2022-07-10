@@ -2450,9 +2450,9 @@ input, select, textarea {
     /* top: 50%; */
     color: white;
     pointer-events: none;
-    padding: 2em;
+    padding: 1em;
     margin: 0 !important;
-    /* margin-bottom: 3em; */
+    font-size: 0.75em;
   }
 
   .features-card:hover {
@@ -2902,7 +2902,7 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 50em;
-			-ms-flex: 1;
+			/* -ms-flex: 1; */
 		}
 
 			.spotlights > section > .content > .inner {
@@ -2950,7 +2950,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.spotlights > section {
-				display: block;
+				display: flex;
 			}
 
 				.spotlights > section > .image {
@@ -3728,14 +3728,13 @@ input, select, textarea {
 
 		}
 
-  /* Intro */
+/* Email */
 
   .email {
-    width: 40px;
     position: fixed;
     bottom: 0px;
     left: auto;
-    right: 40px;
+    right: 0.25em;
     z-index: 10;
   }
 
@@ -3751,7 +3750,7 @@ input, select, textarea {
   .email a {
     padding: 2em;
     /* font-family: var(--font-mono); */
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: 0.1em;
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
