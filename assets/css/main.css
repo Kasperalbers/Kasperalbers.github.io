@@ -3728,12 +3728,13 @@ input, select, textarea {
 
 		}
 
+/* Email */
+
   .email {
-    width: 40px;
     position: fixed;
     bottom: 0px;
     left: auto;
-    right: 40px;
+    right: 0.25em;
     z-index: 10;
   }
 
@@ -3749,7 +3750,7 @@ input, select, textarea {
   .email a {
     padding: 2em;
     /* font-family: var(--font-mono); */
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: 0.1em;
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
