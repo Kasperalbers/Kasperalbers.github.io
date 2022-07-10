@@ -31,7 +31,6 @@
 .links {
   text-align: center;
   justify-content: flex-end;
-  font-size: 1.5em;
 }
 
 @media screen and (max-width: 980px) {
@@ -58,6 +57,12 @@
     top: 180px;
   }
 
+}
+
+@media screen and (max-width: 736px) {
+  .devicon {
+    padding: 0.1em !important;
+  }
 }
 
 #main {
