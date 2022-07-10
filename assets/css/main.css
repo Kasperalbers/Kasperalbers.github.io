@@ -2450,9 +2450,9 @@ input, select, textarea {
     /* top: 50%; */
     color: white;
     pointer-events: none;
-    padding: 2em;
+    padding: 1em;
     margin: 0 !important;
-    /* margin-bottom: 3em; */
+    font-size: 0.75em;
   }
 
   .features-card:hover {
