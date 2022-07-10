@@ -3726,7 +3726,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
-				/* display: none; */
+				display: none;
 			}
 
 		}
@@ -3766,6 +3766,15 @@ input, select, textarea {
     height: 190px;
     margin: 0px auto;
     background-color: white;
+  }
+
+  @media screen and (max-width: 736px) {
+
+    .email a {
+      padding: 1em;
+      font-size: 10px;
+    }
+
   }
 
 /* Intro */
