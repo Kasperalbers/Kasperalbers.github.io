@@ -192,7 +192,6 @@ input, select, textarea {
 	}
 
 		h1.major {
-			margin: 0 0 1.3em 0;
 			position: relative;
 			padding-bottom: 0.35em;
 		}
@@ -2416,6 +2415,8 @@ input, select, textarea {
 				width: 100%;
 			}
 
+  /* Recent work */
+
   .project {
     width: 100%;
   }
@@ -3749,7 +3750,7 @@ input, select, textarea {
 
   .email a {
     padding: 2em;
-    /* font-family: var(--font-mono); */
+    font-family: 'Space Mono', monospace;
     font-size: 12px;
     letter-spacing: 0.1em;
     -webkit-writing-mode: vertical-rl;
